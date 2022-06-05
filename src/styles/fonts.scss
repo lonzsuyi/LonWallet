@@ -1,0 +1,53 @@
+@import './variables';
+
+@font-face {
+    font-family: 'icon-fonts';
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+    src: url(../assets/fonts/icons/ion-eina-01-bold.woff2)
+}
+
+@font-face {
+    font-family: 'cerapro-regular';
+    src: url(../assets/fonts/cerapro/cerapro-regular.otf);
+    font-weight: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'poppins-Regular';
+    src: url(../assets/fonts/poppins/Poppins-Regular.ttf);
+    font-weight: normal;
+    font-weight: normal;
+}
+
+[class^="icon--"],
+[class*=" icon--"] {
+    font-family: 'icon-fonts', 'Helvetica Neue', Arial, sans-serif !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    display: inline-block;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+// custom icons
+.icon--arrow--top--line:before {
+    content: "\e900";
+    border-radius: 50%;
+    padding: 8px;
+    font-size: $font-size-xxxxlarge;
+}
+
+// pp icons
+.pp-icon--overflow {
+    background: $grey--zircon;
+    border-radius: 50%;
+    cursor: pointer;
+}

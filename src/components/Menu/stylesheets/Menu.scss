@@ -1,0 +1,57 @@
+@import '../../../styles/variables.scss';
+
+.menu-container {
+    width: 280px;
+    background-color: $white;
+    border-left-width: 1px;
+    border-left-color: $tinyGrey;
+    border-left-style: solid;
+    border-right-width: 1px;
+    border-right-color: $tinyGrey;
+    border-right-style: solid;
+
+    .menu-logo {
+        margin: 30px 0;
+    }
+
+    .menu-panel {
+        .menu-title {
+            margin: 10px 15px;
+            font-weight: bold;
+        }
+
+        .menu-item-list {
+            li {
+
+                margin: 0 15px;
+                border-radius: 10px;
+
+                a {
+                    display: flex;
+                    justify-content: start;
+                    align-items: center;
+                    height: 40px;
+                    padding: 0 10px;
+                    color: $tinyGrey;
+                    font-size: $font-size-xxlarge;
+
+                    .menu-icon {
+                        margin-right: 10px;
+                        font-size: $font-size-xxxlarge;
+                    }
+                }
+
+
+
+                &.current {
+                    background-color: $primaryBlue;
+
+                    a {
+                        color: $white;
+                    }
+
+                }
+            }
+        }
+    }
+}

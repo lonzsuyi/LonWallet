@@ -1,0 +1,52 @@
+@import '../../../../styles/variables.scss';
+
+.ui-input-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .large {
+        height: 40px;
+        font-size: $font-size-xxlarge;
+    }
+
+    .normal {
+        height: 24px;
+        font-size: $font-size-large;
+    }
+
+    .small {
+        height: 18px;
+        font-size: $font-size-xsmall;
+    }
+
+    input {
+        border-top-width: 1px;
+        border-left-width: 1px;
+        border-bottom-width: 1px;
+        border-top-color: $bgGrey;
+        border-left-color: $bgGrey;
+        border-bottom-color: $bgGrey;
+        border-top-style: solid;
+        border-left-style: solid;
+        border-bottom-style: solid;
+        border-right: 0;
+        background-color: $white;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        color: $primaryBlack;
+    }
+
+
+    span {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 40px;
+        padding: 0 10px;
+        background-color: $primaryBlue;
+        color: $white;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+}

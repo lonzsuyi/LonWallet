@@ -1,0 +1,28 @@
+@import '../../../styles/variables.scss';
+
+.login-container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .login-panel {
+        width: 500px;
+        height: 300px;
+        padding: 20px 0;
+        border-radius: 10px;
+        background-color: $white;
+
+        .logo-title {
+            margin-bottom: 30px;
+        }
+
+        .login-item {
+            margin-bottom: 15px;
+        }
+
+        .login-btn-panel {
+            text-align: center;
+        }
+    }
+}

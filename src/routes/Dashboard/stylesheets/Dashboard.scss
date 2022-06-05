@@ -1,0 +1,65 @@
+@import '../../../styles/variables.scss';
+
+.dashboard-container {
+    padding: 20px;
+
+    .container-title {
+        .welcome {
+            margin-top: 10px;
+
+            .welcome-txt {
+                color: $otherGrey;
+            }
+        }
+
+    }
+
+    .dashboard-item-row {
+        padding: 15px 0;
+
+        .balance-card {
+            width: 35%;
+            text-align: center;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+
+            .balance-icons {
+                font-size: $font-size-superxxlarge;
+                color: $primaryBlue;
+            }
+
+            .balance-title {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: $font-size-xxxxlarge;
+            }
+
+            .balance-value {
+                margin-top: 10px;
+                color: $primaryBlue;
+                font-size: $font-size-xxxxlarge;
+            }
+
+            .balance-btn-panel {
+                display: flex;
+                flex-direction: column;
+
+                .balance-btn {
+                    margin-top: 10px;
+                }
+            }
+        }
+
+        .hsitory-chart-card {
+            width: 50%;
+
+            .hsitory-chart-title {
+                font-size: $font-size-xxxlarge;
+                margin-bottom: 15px;
+            }
+        }
+    }
+}

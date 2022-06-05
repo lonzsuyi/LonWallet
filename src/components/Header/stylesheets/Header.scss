@@ -1,0 +1,33 @@
+@import '../../.././styles/variables.scss';
+
+header {
+    height: 70px;
+    padding: 0 15px;
+    background-color: $white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    .header-menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        li {
+            padding: 0 10px;
+        }
+
+        .header-menu-icon {
+            font-size: $font-size-xxxxxlarge;
+            color: $tinyGrey;
+        }
+
+        .header-avatar {
+            cursor: pointer;
+            width: 30px;
+            height: 30px;
+        }
+    }
+
+}

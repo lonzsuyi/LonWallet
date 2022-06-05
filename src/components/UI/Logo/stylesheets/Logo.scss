@@ -1,0 +1,20 @@
+@import '../../../../styles/variables.scss';
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .logo-icon {
+        font-size: $font-size-xxxxxlarge;
+        margin-right: 5px;
+        font-weight: bold;
+        color: $primaryBlue;
+    }
+
+    .logo-txt {
+        font-size: $font-size-xxxxlarge;
+        font-weight: bold;
+        color: $primaryBlue;
+    }
+}
